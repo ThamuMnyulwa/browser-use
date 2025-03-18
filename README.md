@@ -1,6 +1,15 @@
 # browser-use
 Repo investigating browser use
 
+Playwright (the browser automation library used by browser-use) needs to be installed.
+You need to run the Playwright installation command:
+
+```bash
+playwright install
+```
+
+This will download and install the browser binaries that Playwright needs to function properly.
+
 **Examples**:
 
 [0] Log onto twitter, use Grok to make an image. Download the image then upload the image into ... via the browser.
@@ -40,7 +49,7 @@ The most reliable approach would be:
 uv run python -m browser_use login
 ```
 
-This should use the Python interpreter managed by UV along with all the dependencies that were correctly installed during your `uv sync` command.
+
 
 Resources:
 
