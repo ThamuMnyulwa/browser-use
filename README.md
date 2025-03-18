@@ -14,7 +14,7 @@ Let me analyze what's happening based on the more detailed error messages you've
 
 The problem is that you're trying to install the `dotenv` package, but what you actually need is `python-dotenv` which is different. I notice from your previous output that `python-dotenv` is already listed as one of the packages installed by `uv sync`.
 
-Here's what I recommend doing:
+Recommendation:
 
 1. Python from your virtual environment:
 
