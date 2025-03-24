@@ -1,0 +1,10 @@
+browser-use
+playwright
+lxml
+langchain-openai
+python-dotenv
+papermill
+nest-asyncio
+loguru 
+
+

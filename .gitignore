@@ -172,3 +172,33 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Browser-use specific
+agent_log.log
+*.gif
+**/images/*
+**/downloads/*
+tmp.*
+.browser-use-cache/
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea_modules/
+
+# Playwright specific
+**/playwright-report/
+**/test-results/
+**/playwright/.cache/
+**/.auth/
+
+# Virtual environments
+.venv/
+venv/
